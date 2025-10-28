@@ -235,6 +235,13 @@
                   ?>
                 </a>
               </h3>
+              <img
+              class = "card-img-left flex-auto d-none d-md-block"
+                src="<?php echo $cultura['imagen']; ?>"
+                width="200px"
+                height="150px"
+                alt="Imagen de la noticia de cultura"
+                object-fit="cover">
               <div class="mb-1 text-muted">
                 <?php
                   echo $cultura["autor"];
